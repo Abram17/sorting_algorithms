@@ -25,6 +25,8 @@ void print_list(const listint_t *list);
 listint_t *swap_node(listint_t *node, listint_t **list);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+int part(int *arr, int left, int right, size_t size);
+void sort(int *arr, int left, int right, size_t size);
 void quick_sort(int *array, size_t size);
 
 #endif
